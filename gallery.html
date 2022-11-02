@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="icon" href="img/icon3.png">
+    <style>
+      body{
+            padding:2em; /* em=상대단위 */
+        }
+        .imglist{
+            display:grid; 
+            grid-template-areas: 
+            ' a b c d';
+            grid-gap:2rem;
+            grid-auto-rows: 300px;
+        }
+        .image{
+            height:100%;
+            box-shadow: 5px 5px 5px rgb(212, 212, 212);
+        }
+        .img1{
+            /* grid-column-start: 1;
+            grid-column-end: 3; */
+            grid-area:a;
+        }
+        .img2{
+            /* grid-row-start: 2;
+            grid-row-end: 4; */
+            grid-area:b;}
+        .img3{grid-area:c;}
+        .img4{grid-area:d;}
+    </style>
+</head>
+<body>
+    <div class="imglist">
+        <img src="img/img1.jpg" alt="" class="image img1">
+        <img src="img/img2.jpg" alt="" class="image img2">
+        <img src="img/img3.jpg" alt="" class="image img3">
+        <img src="img/img4.jpg" alt="" class="image img4">
+    </div>
+</body>
+</html>

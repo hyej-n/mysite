@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="송혜진" />
+    <mata name="keyword" content="shoppingmall" />
+    <!-- mata = 작성자가 누군지, 웹페이지 내용, *키워드(중요) 등 -->
+    <title>Welcome to HyeJin Shopping Mall</title>
+    <script src="https://kit.fontawesome.com/33f67aa521.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body>
+    <header id="home">
+        <!-- ./ = 현재폴더 -->
+        <!-- ../ = 하위폴더  -->
+        <i class="fa-solid fa-bars"></i>
+        <h1 class="logo">HyeJin Site</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="">소개</a></li>
+            <li><a href="">쇼핑몰</a></li>
+            <li><a href="">패키지</a></li>
+            <li><a href="">커뮤니티</a></li>
+            <li><a href="./gallery.html">갤러리</a></li>
+        </ul>
+        <!-- <ul>
+            <li><a href="#">메뉴1</a></li>
+            <li><a href="#">메뉴2</a></li>
+            <li><a href="#">메뉴3</a></li>
+            <li><a href="#">메뉴4</a></li>
+            <li><a href="#">메뉴5</a></li>
+        </ul>
+        <ol type="A">
+            <li>메뉴1</li>
+            <li>메뉴2</li>
+            <li>메뉴3</li>
+        </ol> -->
+    </nav>
+    <section>
+        <div class="contents">
+            <article>
+                <div class="media">
+                    <h2>좋아하는 음악</h2>
+                    <audio src="./media/music01.mp3" autoplay controls></audio>
+                    <br>
+                    <h2>북극곰을 살리자</h2>
+                    <vedio src="./media/movie.mp4" width="50%"></vedio>
+                    <h2>OOTD</h2>
+                    <iframe width="600" height="352" src="https://www.youtube.com/embed/5vyaZWqN49c" title="서면 ootd 전시회 (bgm🎵 #ootd - 시도)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+            </article>
+            <article>
+                <div class="gallery">
+                    <h2>갤러리</h2>
+                    <iframe src="./gallery.html" width="100%" height="400px" frameborder="0"></iframe>
+                </div>
+            </article>
+            <article>
+                <div>
+                    <h2>대외활동리스트</h2>
+                    <table>
+                        <tr>
+                            <th>기간</th>
+                            <th>대외활동</th>
+                            <th>주최</th>
+                        </tr>
+                        <tr>
+                            <td>2022.07~</td>
+                            <td>마케팅 아르바이트</td>
+                            <td>위드마케터스</td>
+                        </tr>
+                        <tr>
+                            <td>2022.04~2022.06</td>
+                            <td>도시재생 서포터즈</td>
+                            <td>부산도시재생지원센터</td>
+                        </tr>
+                        <tr>
+                            <td>2021.11~2022.08</td>
+                            <td>부산BI개발 서포터즈</td>
+                            <td>부산관광공사</td>
+                        </tr>
+                    </table>
+                </div>
+                <br><br>
+            </article>
+        </div>
+        <!-- 사이드메뉴 -->
+        <aside class="right">
+            <div class="login">
+                <h2>로그인</h2>
+                <form action="#" method="post">
+                   회원ID : <input type="text" name="id" id=""><br>
+                   비밀번호 : <input type="password" name="pw" id=""><br>
+                    <input type="submit" value="제출">
+                    <input type="button" value="회원가입">
+                </form>
+            </div>
+            <div class="bookmark">
+                <h2>즐겨찾기</h2>
+                <a href="http://mis.donga.ac.kr" target="_blank">경영정보학과</a><br>
+                <a href="./gallery.html">갤러리</a><br>
+                <a href="#home">홈이동</a><br>
+            </div>
+        </aside>
+    </section>
+    <footer>
+        copyright@송혜진
+        <div class="sns">
+            <i class="fa-brands fa-square-facebook"></i>
+            <i class="fa-brands fa-square-instagram"></i>
+            <i class="fa-solid fa-house-user"></i>
+            <i class="fa-regular fa-envelope"></i>
+        </div>
+        
+    </footer>
+</body>
+</html>

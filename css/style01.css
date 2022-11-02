@@ -1,0 +1,64 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    background: url('../img/bg.png') no-repeat center;
+    background-size : cover;
+    margin:0 auto;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+header{ 
+    float:left;
+    width:100%;
+    height:152px;
+}
+
+content{
+    float:left;
+    width:100%;
+    height:456px;
+}
+.left{
+    float:left;
+    width: 21%;
+    height:100%;
+}
+section{
+    float:left;
+    width:57%;
+    height:100%;
+}
+
+.nav{
+    width:600px;
+    height:60px;
+    background-color:rgba(108, 110, 116, 0.5);
+    border-radius: 15px;
+    margin-top:370px;
+}
+
+.nav img{
+    width:50px;
+    margin-top:5px;
+}
+
+.nav img:hover{
+    width:60px;
+    transition:0.5s;
+    margin-top:-5px;
+}
+
+.right{
+    float:right;
+    width:22%;
+    height:100%;
+}
+
+footer{
+    float:left;
+    width:100%;
+    height:109px;
+}
+
